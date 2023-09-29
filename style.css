@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  .container {
+    max-width: 1146px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+  .top-container{
+    max-width: 1400px;
+    display: flex;
+    height: 84px;
+    padding-bottom: 20px;
+}
+.top-logo{
+    margin-top: 28px;
+    margin-left: 127px;
+    width: 264px;
+    height: 44px;
+}
+.call-us{
+    margin-top: 20px;
+    margin-left: 619px;
+    display: flex;
+    width: 264px;
+    height: 60px;
+    background-color: #ffffff; 
+    border: 1px solid #182877; 
+    border-radius: 90px;
+}
+.call-us-link{
+    text-wrap: nowrap;
+    margin-top: 19px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 400;
+}
+.call-us-svg{
+    margin: 19px 22px 19px 29px;
+    width: 22px;
+    height: 22px;
+    
+}
+.main-info{
+    min-height: 700px;
+    background-color: #F3F7FF;
+    margin-top: -20px;
+}
+.main-container{
+   display: flex;
+   justify-content: space-between;
+/* }
+.main-info-jpg{
+    top: -14px;
+    position: absolute;
+    padding-left: 619px;
+}
+.h1{
+    font-size: 60px;
+    color: #C9262A;
+    font-family: Montserrat;
+    padding-top: 57px;
+    padding-left: 124px;
+}
+.h2{
+    font-size: 35px;
+    color: #182877;
+    line-height: 45px;
+    font-family: Montserrat;
+    padding-left: 124px;
+    margin-bottom:-40px;
+}
+.h3{
+    font-family: Montserrat;
+    padding-left: 124px;
+    font-size: 35px;
+    color: #182877;
+    line-height: 45px;
+}
+.div-p1{
+    display: flex;
+}
+.p1 {
+    padding-left: 8px;
+    margin-top: -10px;
+    max-width: 326px;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.blue-text{
+    color: 
+    #182877;
+}
+.small-line {
+    width: 30px;
+    height: 3px;
+    padding-left: 127px;
+}
+.application-button{
+
+    display: flex;
+    width: 460px;
+    height: 70px;
+    background: #C9262A;
+    border-radius: 80px;
+    margin-left: -410px;
+    margin-top: 72px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 2;
+}
+.application{
+    text-wrap: nowrap;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 18px;
+ 
+} */

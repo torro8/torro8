@@ -6,17 +6,21 @@
     box-sizing: border-box;
 }
 
-  .container {
-    max-width: 1146px;
+.main-container {
+    display: flex;
+    justify-content: center;
     margin: 0 auto;
     padding: 0 10px;
 }
-
-  .top-container{
-    max-width: 1400px;
+.top-container{
+    width: 100vw;
     display: flex;
-    height: 84px;
-    padding-bottom: 20px;
+    justify-content: center;
+}
+.top-top{
+    gap: 619px;
+    display: flex;
+    justify-content: space-between;
 }
 .top-logo{
     margin-top: 28px;
@@ -43,24 +47,16 @@
     font-weight: 400;
 }
 .call-us-svg{
-    margin: 19px 22px 19px 29px;
     width: 22px;
     height: 22px;
     
 }
-.main-info{
-    min-height: 700px;
+.container{
+    width: 1400px;
+    height: 800px;
     background-color: #F3F7FF;
-    margin-top: -20px;
-}
-.main-container{
-   display: flex;
-   justify-content: space-between;
-/* }
-.main-info-jpg{
-    top: -14px;
-    position: absolute;
-    padding-left: 619px;
+    display: flex;
+    justify-content: space-between;
 }
 .h1{
     font-size: 60px;
@@ -75,7 +71,6 @@
     line-height: 45px;
     font-family: Montserrat;
     padding-left: 124px;
-    margin-bottom:-40px;
 }
 .h3{
     font-family: Montserrat;
@@ -84,12 +79,8 @@
     color: #182877;
     line-height: 45px;
 }
-.div-p1{
-    display: flex;
-}
 .p1 {
     padding-left: 8px;
-    margin-top: -10px;
     max-width: 326px;
     font-family: "Montserrat";
     font-size: 18px;
@@ -102,6 +93,15 @@
     color: 
     #182877;
 }
+/* }
+.main-info-jpg{
+    position: absolute;
+    padding-left: 619px;
+}
+.div-p1{
+    display: flex;
+}
+
 .small-line {
     width: 30px;
     height: 3px;
@@ -114,7 +114,6 @@
     height: 70px;
     background: #C9262A;
     border-radius: 80px;
-    margin-left: -410px;
     margin-top: 72px;
     align-items: center;
     justify-content: center;

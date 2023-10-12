@@ -2,41 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="top-container"> 
+    <header> 
+        <div class="wrapper">
             <div class="top-top">
-                    <img class="top-logo" src="logo.svg" alt="">
-                <button>
-                    <img class="call-us-svg" src="Vector.svg" alt="">
-                    <a class="call-us-link" href="">Заказать звонок</a>
-                </button>        
-            </div>                        
+            <img class="top-logo" src="logo.png" alt="">
+            <button class="call-us-button">
+                <img class="call-us-svg" src="Vector.svg" alt="">
+                <h2 class="call-us-link" href="">Заказать звонок</h2>
+            </button>        
+        </div>   
+        </div>                  
     </header>  
-        <div class="main-container">       
-            <div class="container"> 
-                <div class="main-info"> 
-                        <div class="left-container">
-                            <h1 class="h1">АУТСОРСИНГ</h1> 
-                            <h2 class="h2">ИНФОРМАЦИОННОЙ</h2> 
-                            <h3 class="h3">БЕЗОПАСНОСТИ</h2>
-                                <div class="div-p1">
-                                    <img class="small-line" src="Line1.svg" alt="">
-                                    <p class="p1"> Комплексное <span class="blue-text">решение вопросов
-                                    по кибербезопасности </span>
-                                    <br>для вашего бизнеса</p>
-                                    <div class="application-button">
-                                    <h4 class="application">Оставить заявку на экспресс-консультацию</h4>
-                                </div>
+    <main>
+        <section>
+            <div class="start-screen">
+                <div class="wrapper">
+                    <div class="start-screen__container">
+                        <h1 class="h1">АУТСОРСИНГ</h1> 
+                        <h2 class="h2">ИНФОРМАЦИОННОЙ</h2> 
+                        <h3 class="h3">БЕЗОПАСНОСТИ</h2>
+                        <div class="div-p1">
+                            <div class="start-screen__subtitle">
+                                <img class="small-line" src="Line1.svg" alt="">
+                                <p class="p1"> Комплексное <span class="blue-text">решение вопросов
+                                по кибербезопасности</span>
+                                <br>для вашего бизнеса</p>
+                            </div>
+                            <button class="application-btn">Оставить заявку на экспресс-консультацию</button>
                         </div>
-                    <div class="right-container">
-                        <img src="Group.png" alt="">
-                    </div> 
+                    </div>
                 </div>
-            </div> 
-        </div>          
+                <img class="start-screen__group-img" src="Group.png" alt="groooo">  
+            </div>
+        </section>
+    </main>  
 </body>
 </html>
